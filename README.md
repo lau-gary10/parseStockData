@@ -5,7 +5,7 @@ Created by Gary Lau
 
 Requires Python 3.3
 
-This program will grab financial data from the web and save them on csv file.
+This program will grab financial data from the web and save them on csv file. All of this is done through command line (I'm working on implementing GUI).
 
 Before running this program, specify where to store the info. Find 'common_lib.py', search 'STOCK_FILE_DIR' and change the file address.
 
