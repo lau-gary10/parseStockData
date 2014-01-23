@@ -1,4 +1,4 @@
-parseStockData
+parseStockData v0.1
 ==============
 
 This program will grab financial data from the web and save them on csv file. 
