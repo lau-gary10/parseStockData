@@ -286,7 +286,7 @@ def actual_run_time():
     numSec = timeit.timeit(new_function, number=1)
     from datetime import timedelta
     floatOfNumSec = timedelta(seconds=float(numSec))
-    print('Actual run time: ' + str(floatOfNumSec))
+    print('Actual run time on download_fundamental_data.py: ' + str(floatOfNumSec))
     return
 
 def main():
