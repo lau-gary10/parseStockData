@@ -227,7 +227,7 @@ def glean_info_from_ticker_Cashflow_Quarterly(ticker, readList):
 
     # cffoa per sh / Last Price in percentage
     lastPricePercentageVal = last_price_to_value_percentage(netCashProvidedByOperatingActivitiesPerShare)
-    inputList.append(['percentage of last price to net cash provided by operating activities per share', netCashProvidedByOperatingActivitiesPerShare])
+    inputList.append(['percentage of last price to net cash provided by operating activities per share', lastPricePercentageVal])
 
     return
 

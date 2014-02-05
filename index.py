@@ -115,9 +115,9 @@ def main():
     lastPriceFlag = str(lastPriceFlag)
 
     if userTypeRun == True:
-        partial_run(tickerFilename, lastPriceFlag)
-    elif userTypeRun == False:
         full_run(tickerFilename, lastPriceFlag)
+    elif userTypeRun == False:
+        partial_run(tickerFilename, lastPriceFlag)
     else:
         print("userTypeRun not recognized.")
     return
